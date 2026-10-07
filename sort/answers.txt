@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The reversed text took the longest compared to random and sorted as Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order. A reversed list requires many swaps, whereas an already sorted list requires very few.
+
+sort2 uses: Merge Sort
+
+How do you know?: It was consistently the fastest of the three sorting algorithms. Merge Sort divides the input into smaller parts and merges them back together efficiently, resulting in O(n log n) time complexity.
+
+sort3 uses: Selection Sort
+
+How do you know?: It was consistently slower than Merge Sort even when the list is sorted. Selection Sort repeatedly searches the unsorted portion for the smallest element, resulting in O(n²) time complexity.
